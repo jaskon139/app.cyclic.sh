@@ -4,5 +4,7 @@ const { createVLESSServer } = require("@3kmfi6hp/nodejs-proxy");
 const port = process.env.PORT || 3000;
 const uuid = "d342d11e-d424-4583-b36e-524ab1f0afa4";
 
+console.log( port, uuid);
+
 // 调用函数启动 VLESS 服务器
 createVLESSServer(port, uuid);
